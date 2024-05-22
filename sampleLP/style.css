@@ -38,3 +38,40 @@ div.header {
     padding: 0;
     font-size: 20px;
 }
+
+.opentime{
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    background: #D5EAD5;
+}
+
+.opentime .opentimetitle{
+    position: absolute;
+    display: inline-block;
+    top: -15px;
+    left: 10px;
+    padding: 5px 9px;
+    line-height: 1;
+    font-size: 25px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    background: #fff;
+    color: #444444;
+    font-weight: bold;
+}
+
+.opentime .opentimetext{
+    margin: 0.5em 0; 
+    padding: 0;
+    font-size: 35px;
+    color: #f00;
+}
+
+.opentime .subopentimetext{
+    margin: 0; 
+    padding: 0;
+    font-size: 20px;
+}
