@@ -14,17 +14,17 @@
     <header class="page-header">
         <img src="/sampleLP/images/header_logo.png" alt="chocoZAPロゴ" width="300" height="100">
             <nav>
-                <ul class="main-nav">
-                    <li><a href="#">概要</a></li>
-                    <li><a href="#">サービス</a></li>
-                    <li><a href="#">利用者の声</a></li>
+                <ul class="main-nav"id="main-nav">
+                    <li><a href="#content">概要</a></li>
+                    <li><a href="#service">サービス</a></li>
+                    <li><a href="#customer">利用者の声</a></li>
                 </ul>
             </nav>
             <button class="sign_up">会員登録 →</button>
     </header>
 <main>
     <div class="top">
-        <div class="content">
+        <div class="content"id="content">
             <div class="top_content">
                 <h1>日本中のあらゆる人の声に寄り添い、
                     <br>健康で活力に溢れた社会にコミットし
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-<div class="center">
+<div class="center"id="service">
     <div class="top_item">
         <section>
             <div class="price">
@@ -82,7 +82,7 @@
 </div>
 
 <div>
-    <h1 class="client">お客様の声</h1>
+    <h1 id="customer" class="client">お客様の声</h1>
     <br><br>
     <div class="comment">
         <section class="user1-comment-section">
@@ -175,7 +175,14 @@
         </div>
     </div>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../js/scroll.js"></script>
+
 </body>
+
+
 
 </html>
 
