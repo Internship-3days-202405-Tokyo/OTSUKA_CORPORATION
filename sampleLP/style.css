@@ -35,9 +35,9 @@ nav {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #95ccff;
+    border: solid 3px #000;
     border-radius: 8px;
-    background: #D5EAD5;
+    background: #fff580;
 }
 
 .price .pricetitle{
@@ -48,7 +48,7 @@ nav {
     padding: 5px 9px;
     line-height: 1;
     font-size: 25px;
-    border: solid 3px #95ccff;
+    border: solid 3px #000;
     border-radius: 8px;
     background: #fff;
     color: #444444;
@@ -72,9 +72,9 @@ nav {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
-    border: solid 3px #95ccff;
+    border: solid 3px #000;
     border-radius: 8px;
-    background: #D5EAD5;
+    background: #fff580;
 }
 
 .opentime .opentimetitle{
@@ -85,7 +85,7 @@ nav {
     padding: 5px 9px;
     line-height: 1;
     font-size: 25px;
-    border: solid 3px #95ccff;
+    border: solid 3px #000;
     border-radius: 8px;
     background: #fff;
     color: #444444;
@@ -100,6 +100,43 @@ nav {
 }
 
 .opentime .subopentimetext{
+    margin: 0; 
+    padding: 0;
+    font-size: 20px;
+}
+
+.rate{
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #000;
+    border-radius: 8px;
+    background: #fff580;
+}
+
+.rate .ratetitle{
+    position: absolute;
+    display: inline-block;
+    top: -15px;
+    left: 10px;
+    padding: 5px 9px;
+    line-height: 1;
+    font-size: 25px;
+    border: solid 3px #000;
+    border-radius: 8px;
+    background: #fff;
+    color: #444444;
+    font-weight: bold;
+}
+
+.rate .ratetext{
+    margin: 0.5em 0; 
+    padding: 0;
+    font-size: 35px;
+    color: #f00;
+}
+
+.rate .subratetext{
     margin: 0; 
     padding: 0;
     font-size: 20px;
@@ -282,6 +319,7 @@ nav {
     background-color:#fff580;
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
 }
 .app_img {
     text-align: center;
@@ -311,3 +349,9 @@ nav {
     width: 40px;
     border-radius: 10px;
 }
+
+.youtube {
+    text-align: center;
+    border-radius: 20px;
+}
+
