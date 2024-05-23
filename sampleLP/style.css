@@ -78,6 +78,7 @@ nav {
     margin: 0.5em 0; 
     padding: 0;
     font-size: 35px;
+    font-weight: bold;
     color: #f00;
 }
 
@@ -115,6 +116,7 @@ nav {
     margin: 0.5em 0; 
     padding: 0;
     font-size: 35px;
+    font-weight: bold;
     color: #f00;
 }
 
@@ -152,10 +154,49 @@ nav {
     margin: 0.5em 0; 
     padding: 0;
     font-size: 35px;
+    font-weight: bold;
     color: #f00;
 }
 
 .rate .subratetext{
+    margin: 0; 
+    padding: 0;
+    font-size: 20px;
+}
+
+.security{
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #000;
+    border-radius: 8px;
+    background: #fff580;
+}
+
+.security .securitytitle{
+    position: absolute;
+    display: inline-block;
+    top: -15px;
+    left: 10px;
+    padding: 5px 9px;
+    line-height: 1;
+    font-size: 25px;
+    border: solid 3px #000;
+    border-radius: 8px;
+    background: #fff;
+    color: #444444;
+    font-weight: bold;
+}
+
+.security .securitytext{
+    margin: 0.5em 0; 
+    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f00;
+}
+
+.security .subsecuritytext{
     margin: 0; 
     padding: 0;
     font-size: 20px;
