@@ -399,16 +399,19 @@ nav {
     border: none;
 } */
 
-/* .top_item{
-    display: flex;
-    justify-content: space-between;
-} */
+.top_item{
+    margin: 60px;
+    animation: slideinLeft 3s forwards; 
+    animation-fill-mode: forwards; 
+} 
 
-/* .bottom_item
+.bottom_item
 {
-    display: flex;
-    justify-content: space-between;
-} */
+    margin: 60px;
+    animation: slideinRight 3s forwards; 
+    animation-fill-mode: forwards; 
+}
+
 
 
 .footer p {
