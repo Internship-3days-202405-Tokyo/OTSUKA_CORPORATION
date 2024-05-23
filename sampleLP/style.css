@@ -237,6 +237,8 @@ nav {
     margin: 20px;
     width: auto; 
     max-width: 100%; 
+    animation: slideinLeft 3s forwards; 
+    animation-fill-mode: forwards; 
 }
 
 .user-comment-section {
@@ -248,6 +250,8 @@ nav {
     margin: 20px 0;
     width: auto; 
     max-width: 100%; 
+    animation: slideinRight 3s forwards; 
+    animation-fill-mode: forwards; 
 }
 
 
