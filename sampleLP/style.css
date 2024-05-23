@@ -59,6 +59,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 120px;
+    top: 200px;
 }
 
 .price .pricetitle{
@@ -77,9 +81,9 @@ nav {
 }
 
 .price .mainprice{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -97,6 +101,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 120px;
+    bottom: 200px;
 }
 
 .opentime .opentimetitle{
@@ -115,9 +123,9 @@ nav {
 }
 
 .opentime .opentimetext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -135,6 +143,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    bottom: 1000px;
 }
 
 .rate .ratetitle{
@@ -153,9 +165,9 @@ nav {
 }
 
 .rate .ratetext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -173,6 +185,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    bottom: 860px;
 }
 
 .security .securitytitle{
@@ -191,9 +207,9 @@ nav {
 }
 
 .security .securitytext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
