@@ -400,14 +400,14 @@ nav {
 } */
 
 .top_item{
-    margin: 60px;
+    margin: 30px;
     animation: slideinLeft 3s forwards; 
     animation-fill-mode: forwards; 
 } 
 
 .bottom_item
 {
-    margin: 60px;
+    margin: 30px;
     animation: slideinRight 3s forwards; 
     animation-fill-mode: forwards; 
 }
@@ -511,5 +511,5 @@ nav {
 }
 
 .client{
-    margin-left: 40px;
+    margin-left;
 }
