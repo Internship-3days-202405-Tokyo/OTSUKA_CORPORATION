@@ -146,6 +146,7 @@ nav {
     width: 300px;
     height: 300px;
     left: 800px;
+    bottom: 1000px;
 }
 
 .rate .ratetitle{
@@ -178,6 +179,7 @@ nav {
 }
 
 .security{
+
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
