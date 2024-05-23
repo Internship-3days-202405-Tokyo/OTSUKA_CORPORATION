@@ -61,8 +61,6 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
-    left: 120px;
-    top: 200px;
 }
 
 .price .pricetitle{
@@ -103,12 +101,10 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
-    left: 120px;
-    bottom: 200px;
+    align-self: flex-end;
 }
 
 .opentime .opentimetitle{
-    position: absolute;
     display: inline-block;
     top: -15px;
     left: 10px;
@@ -137,7 +133,6 @@ nav {
 }
 
 .rate{
-    position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
     border: solid 3px #000;
@@ -145,12 +140,9 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
-    left: 800px;
-    bottom: 1000px;
 }
 
 .rate .ratetitle{
-    position: absolute;
     display: inline-block;
     top: -15px;
     left: 10px;
@@ -187,8 +179,6 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
-    left: 800px;
-    bottom: 860px;
 }
 
 .security .securitytitle{
@@ -393,9 +383,32 @@ nav {
     padding: 20px;
     margin-top: 20px;
 }
-.app_img {
-    text-align: center;
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
+
+/* .app_img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+} */
+
+/* .top_item{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .bottom_item
+{
+    display: flex;
+    justify-content: space-between;
+} */
 
 
 .footer p {
@@ -493,3 +506,4 @@ nav {
 .sign_up:hover {
     background-color:#ffd900;
 }
+
