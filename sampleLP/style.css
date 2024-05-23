@@ -216,6 +216,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .comment {
@@ -233,6 +235,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .user-comment-section {
@@ -244,6 +248,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinRight 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     
@@ -292,6 +298,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinRight 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .comment {
@@ -308,8 +316,9 @@ nav {
         border-radius: 15px;
         padding: 20px;
         margin: 20px 0;
-
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .user-comment-section {
@@ -320,6 +329,7 @@ nav {
         padding: 20px;
         margin: 20px 0;
         max-width: 100%; 
+        
     }
     
     
@@ -416,3 +426,55 @@ nav {
     border-radius: 20px;
 }
 
+
+.image-container img{
+    border-radius: 40px;
+    animation: slideinRight 3s infinite;
+
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 40px;
+    height: auto;
+}
+
+.image-container img {
+    border-radius: 40px;
+    animation: slideinRight 3s forwards; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideinRight {
+    0% {
+        transform: translateX(50px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1; 
+    }
+}
+
+
+.top_content{
+    animation: slideinLeft 3s forwards; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideinLeft {
+    0% {
+        transform: translateX(-50px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1; 
+    }
+}
+
+.youtube iframe{
+    border-radius: 20px;
+}
