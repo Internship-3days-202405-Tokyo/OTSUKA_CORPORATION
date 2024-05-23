@@ -61,6 +61,7 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
+    box-shadow: 6px 6px #555;
 }
 
 .price .pricetitle{
@@ -102,9 +103,11 @@ nav {
     width: 300px;
     height: 300px;
     align-self: flex-end;
+    box-shadow: 6px 6px #555;
 }
 
 .opentime .opentimetitle{
+    position: absolute;
     display: inline-block;
     top: -15px;
     left: 10px;
@@ -133,6 +136,7 @@ nav {
 }
 
 .rate{
+    position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
     border: solid 3px #000;
@@ -140,9 +144,11 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
+    box-shadow: 6px 6px #555;
 }
 
 .rate .ratetitle{
+    position: absolute;
     display: inline-block;
     top: -15px;
     left: 10px;
@@ -179,6 +185,7 @@ nav {
     background: #fff580;
     width: 300px;
     height: 300px;
+    box-shadow: 6px 6px #555;
 }
 
 .security .securitytitle{
