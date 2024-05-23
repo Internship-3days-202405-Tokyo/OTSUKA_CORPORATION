@@ -254,14 +254,6 @@ nav {
         animation-fill-mode: forwards; 
     }
     
-    
-    .sign_up {
-        background-color:#fff580;
-        border-radius: 40px;
-        height: 60px;
-        width: 180px;
-    }
-    
     .user_img {
         flex-shrink: 0;
         margin-right: 20px;
@@ -333,15 +325,6 @@ nav {
         max-width: 100%; 
         
     }
-    
-    
-    .sign_up {
-        background-color:#fff580;
-        border-radius: 40px;
-        height: 60px;
-        width: 180px;
-    }
-    
     .user_img {
         flex-shrink: 0;
         margin-right: 20px;
@@ -480,4 +463,17 @@ nav {
 
 .youtube iframe{
     border-radius: 20px;
+}
+
+
+.sign_up {
+    background-color:#fff580;
+    border-radius: 40px;
+    height: 60px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.sign_up:hover {
+    background-color:#ffd900;
 }
