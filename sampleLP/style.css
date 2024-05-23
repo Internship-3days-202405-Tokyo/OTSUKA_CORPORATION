@@ -19,6 +19,7 @@
 
 div.header {
     color:blue
+    
 }
 
 .page-header {
@@ -26,6 +27,7 @@ div.header {
     justify-content: space-between;
     align-items: center; 
     padding: 10px;
+    border-bottom: 1px solid #eae6e6;
 }
 
 nav {
@@ -57,6 +59,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 120px;
+    top: 200px;
 }
 
 .price .pricetitle{
@@ -75,9 +81,9 @@ nav {
 }
 
 .price .mainprice{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -95,6 +101,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 120px;
+    bottom: 200px;
 }
 
 .opentime .opentimetitle{
@@ -113,9 +123,9 @@ nav {
 }
 
 .opentime .opentimetext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -133,6 +143,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    bottom: 1000px;
 }
 
 .rate .ratetitle{
@@ -151,9 +165,9 @@ nav {
 }
 
 .rate .ratetext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -171,6 +185,10 @@ nav {
     border: solid 3px #000;
     border-radius: 8px;
     background: #fff580;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+    bottom: 860px;
 }
 
 .security .securitytitle{
@@ -189,9 +207,9 @@ nav {
 }
 
 .security .securitytext{
-    margin: 0.5em 0; 
+    margin: 1em 0; 
     padding: 0;
-    font-size: 35px;
+    font-size: 27px;
     font-weight: bold;
     color: #f00;
 }
@@ -216,6 +234,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .comment {
@@ -233,6 +253,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .user-comment-section {
@@ -244,14 +266,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
-    }
-    
-    
-    .sign_up {
-        background-color:#fff580;
-        border-radius: 40px;
-        height: 60px;
-        width: 180px;
+        animation: slideinRight 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .user_img {
@@ -292,6 +308,8 @@ nav {
         margin: 20px 0;
         width: auto; 
         max-width: 100%; 
+        animation: slideinRight 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .comment {
@@ -308,8 +326,9 @@ nav {
         border-radius: 15px;
         padding: 20px;
         margin: 20px 0;
-
         max-width: 100%; 
+        animation: slideinLeft 3s forwards; 
+        animation-fill-mode: forwards; 
     }
     
     .user-comment-section {
@@ -320,16 +339,8 @@ nav {
         padding: 20px;
         margin: 20px 0;
         max-width: 100%; 
+        
     }
-    
-    
-    .sign_up {
-        background-color:#fff580;
-        border-radius: 40px;
-        height: 60px;
-        width: 180px;
-    }
-    
     .user_img {
         flex-shrink: 0;
         margin-right: 20px;
@@ -386,6 +397,7 @@ nav {
     text-align: center;
 }
 
+
 .footer p {
     margin: 4;
 }
@@ -416,3 +428,68 @@ nav {
     border-radius: 20px;
 }
 
+
+.image-container img{
+    border-radius: 40px;
+    animation: slideinRight 3s infinite;
+
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 40px;
+    height: auto;
+}
+
+.image-container img {
+    border-radius: 40px;
+    animation: slideinRight 3s forwards; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideinRight {
+    0% {
+        transform: translateX(50px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1; 
+    }
+}
+
+
+.top_content{
+    animation: slideinLeft 3s forwards; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideinLeft {
+    0% {
+        transform: translateX(-50px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1; 
+    }
+}
+
+.youtube iframe{
+    border-radius: 20px;
+}
+
+
+.sign_up {
+    background-color:#fff580;
+    border-radius: 40px;
+    height: 60px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.sign_up:hover {
+    background-color:#ffd900;
+}
