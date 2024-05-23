@@ -220,7 +220,7 @@ nav {
 
 
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
 
 
     .user-comment-section {
@@ -235,7 +235,9 @@ nav {
     }
     
     .comment {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
         margin: 30px;
     }
     
@@ -246,7 +248,7 @@ nav {
         border-radius: 15px;
         padding: 20px;
         margin: 20px 0;
-        width: auto; 
+
         max-width: 100%; 
     }
     
@@ -257,7 +259,6 @@ nav {
         border-radius: 15px;
         padding: 20px;
         margin: 20px 0;
-        width: auto; 
         max-width: 100%; 
     }
     
