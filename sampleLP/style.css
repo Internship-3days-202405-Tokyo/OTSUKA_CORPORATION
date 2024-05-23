@@ -19,6 +19,7 @@
 
 div.header {
     color:blue
+    
 }
 
 .page-header {
@@ -26,6 +27,7 @@ div.header {
     justify-content: space-between;
     align-items: center; 
     padding: 10px;
+    border-bottom: 1px solid #eae6e6;
 }
 
 nav {
@@ -395,6 +397,7 @@ nav {
 .app_img {
     text-align: center;
 }
+
 
 .footer p {
     margin: 4;
