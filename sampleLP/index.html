@@ -6,13 +6,13 @@
     <meta name="description" content="コンビニジム『chocoZAP』の入会ページです。">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/chocozap_logo.jpg">
-  </head>
+    <link rel="icon" href="/sampleLP/images/chocozap_logo.jpg">
+</head>
 
 <body>
     <div class="all">
     <header class="page-header">
-        <img src="./img/chocozap_logo.jpg" alt="chocoZAPロゴ">
+        <img src="/sampleLP/images/header_logo.png" alt="chocoZAPロゴ" width="300" height="100">
             <nav>
                 <ul class="main-nav">
                     <li><a href="#">概要</a></li>
@@ -20,21 +20,23 @@
                     <li><a href="#">利用者の声</a></li>
                 </ul>
             </nav>
+            <button class="sign_up">会員登録 →</button>
     </header>
-
-
 <main>
-<div>
-ここはディブタグです
-</div>
-
-<h1>chocoZAP</h1>
-<h2>25卒エンジニアインターン企画</h2>
-
-<section>
-    <H2>こんにちは</H2>
-</section>
-
+    <div class="top">
+        <div class="content">
+            <div>
+                <h1>日本中のあらゆる人の声に寄り添い、
+                    <br>健康で活力に溢れた社会にコミットし続けることができる
+                    <br>サービスをご提供する</h1>
+                <br>
+                <button class="sign_up">会員登録 →</button>
+            </div>
+            <div class="image-container">
+                <img src="/sampleLP/images/teikyo_chocoZAP_01.webp" height="300px" width="400px">
+            </div>
+        </div>
+    </div>
 <section>
     <div class="price">
         <h2><div class="pricetitle">価格</div></h2>
@@ -42,6 +44,9 @@
         <p><div class="subprice">(税込3278円)</div></p>
     </div>
 </section>
+<div class="app_img">
+    <img src="/sampleLP/images/explanation-of-how-to-join-chocozap-063.webp" height="500" width="300">
+</div>
 
 <section>
     <div class="opentime">
@@ -54,26 +59,36 @@
 <div>
     <h1>お客様の声</h1>
     <br><br>
-    <section>
-        <h2>30代主婦の方</h2>
-        <p>
-            春だから！というわけじゃないけど😆<br>今までもっぱらYouTubeで宅トレでしたがキャンペーンにつられてチョコザップデビューしました😆<br>主な目的はエステやネイルかも😁<br><br>引用:https://x.com/LOVE31222163/status/1792824232189292639<br><br><br>
-        </p>
+    <div class="comment">
+        <section class="user1-comment-section">
+            <div class="user_img">
+                <img src="/sampleLP/images/s-326x344_webp_16cf5c06-4bc9-4ba4-96fc-7607b185f457.webp" height="100" width="100">
+            </div>
+            <div class="user1-comment">
+                <h2>30代主婦の方</h2>
+                <p>
+                    春だから！というわけじゃないけど😆<br>今までもっぱらYouTubeで宅トレでしたがキャンペーンにつられてチョコザップデビューしました😆<br>主な目的はエステやネイルかも😁<br><br><br>
+                    <!-- <br>引用:https://x.com/LOVE31222163/status/1792824232189292639<br> -->
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <section class="user-comment-section">
+        <div class="user_img">
+            <img src="/sampleLP/images/s-318x332_webp_ea391396-1da2-450c-9baa-b92d449ba090.webp" height="100" width="100">
+        </div>
+        <div class="user_comment">
+            <h2>40代男性の方</h2>
+            <p>チョコザップ入会から丸1年でツイートするつもりが日付を間違えて覚えていた(去年の5月12日入会だった)<br>というわけで1年の成果を…<br>体重:75.8kg→62.4kg(-13.4kg)<br>体脂肪率:22.0%→14.8％(-7.2％)<br>ライザップのCMみたいなの作れるように体重落ちる前の動画撮っておけば良かったな😂<br><br><br><p>
+        </div>
+        <!-- <br>引用:https://x.com/kohsei3/status/1791450646320972068<br> -->
     </section>
-
-    <section>
-        <h2>40代男性の方</h2>
-        チョコザップ入会から丸1年でツイートするつもりが日付を間違えて覚えていた(去年の5月12日入会だった)<br>というわけで1年の成果を…<br>体重:75.8kg→62.4kg(-13.4kg)<br>体脂肪率:22.0%→14.8％(-7.2％)<br>ライザップのCMみたいなの作れるように体重落ちる前の動画撮っておけば良かったな😂<br><br>引用:https://x.com/kohsei3/status/1791450646320972068<br><br><br>
-    </section>
-
-    
-
-
 </div>
 
 </main>
 
-<footer>ちょこざっぷ    
+<footer>   
     <div class="footer">
         <div class="company_about">
             <h1>会社概要</h1>
@@ -96,21 +111,33 @@
                 </div>
         </div>
     </div>
-    <div class="twitter">
-        twitterはこちら
+    <div class="sns">
+        <div class="X">
+            <a href="https://x.com/chocozap_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                <img src="/sampleLP/images/X.png" height="40px" width="40px">
+            </a>
+        </div>
+        <div class="youtube">
+            <a href="https://www.youtube.com/channel/UCJX9oswoCShckKZumqABqKQ">
+                <img src="/sampleLP/images/youtube.png" height="40px" width="40px">
+            </a>
+        </div>
+        <div class="tiktok">
+            <a href="https://www.tiktok.com/@chocozap_">
+                <img src="/sampleLP/images/tiktok.png" height="40px" width="40px">
+            </a>
+        </div>
+        <div class="line">
+            <a href="https://page.line.me/847zitjn">
+                <img src="/sampleLP/images/LINE.png" height="40px" width="40px">
+            </a>
+        </div> 
+        <div class="instagram">
+            <a href="https://www.instagram.com/chocozap_official/?hl=ja">
+                <img src="/sampleLP/images/Instagram.png" height="40px" width="40px">
+            </a>
+        </div>
     </div>
-    <div class="youtube">
-        youtubeはこちら
-    </div>
-    <div class="tiktok">
-        tiktokはこちら
-    </div>
-    <div class="line">
-        lineはこちら
-    </div> 
-    <div class="instagram">
-        instagraはこちら
-    </div> 
 </footer>
 </body>
 

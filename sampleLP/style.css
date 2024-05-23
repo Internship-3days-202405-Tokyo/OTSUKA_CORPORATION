@@ -2,6 +2,35 @@ div.header {
     color:blue
 }
 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+}
+
+nav {
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
 .price{
     position: relative;
     margin: 2em 0;
@@ -74,4 +103,124 @@ div.header {
     margin: 0; 
     padding: 0;
     font-size: 20px;
+}
+
+/* .user img {
+    border-radius: 20px;
+} */
+
+.user-comment-section {
+    display: inline-flex; 
+    align-items: flex-start;
+    background-color: #f3f5f7;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: auto; 
+    max-width: 100%; 
+}
+
+.comment {
+    display: flex;
+}
+
+.user1-comment-section {
+    display: inline-flex; 
+    align-items: flex-start;
+    background-color: #f3f5f7;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: auto; 
+    max-width: 100%; 
+}
+
+.user-comment-section {
+    display: inline-flex; 
+    align-items: flex-start;
+    background-color: #fff580;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: auto; 
+    max-width: 100%; 
+}
+
+
+.sign_up {
+    background-color:#fff580;
+    border-radius: 40px;
+    height: 60px;
+    width: 180px;
+}
+
+.user_img {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.user_img img {
+    border-radius: 50%; 
+}
+
+.user_comment {
+    max-width: 600px; 
+}
+
+.user_comment h2 {
+    margin-top: 0;
+}
+
+.user_comment p {
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    background-color:#fff580;
+    text-align: center;
+    padding: 20px;
+}
+.app_img {
+    text-align: center;
+}
+
+.footer p {
+    margin: 4;
+}
+.company_about {
+    margin-bottom: 20px;
+}
+
+.sns {
+    background-color:#fff580
+}
+
+.sns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.sns img {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
 }
